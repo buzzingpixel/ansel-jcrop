@@ -1,6 +1,6 @@
 {
     "name": "buzzingpixel.ansel.jcrop",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Jcrop modified for use with BuzzingPixel's Ansel field type",
     "homepage": "https://github.com/buzzingpixel/ansel-jcrop",
     "bugs": "https://github.com/buzzingpixel/ansel-jcrop/issues",
@@ -19,6 +19,11 @@
     "fabricatorJsBuild": {
         "files": [
             "src/jquery.Jcrop.js"
+        ]
+    },
+    "fabricatorPostCssBuild": {
+        "cssFiles": [
+            "src/jquery.Jcrop.css"
         ]
     }
 }
