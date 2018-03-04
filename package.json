@@ -1,0 +1,24 @@
+{
+    "name": "buzzingpixel.ansel.jcrop",
+    "version": "1.0.0",
+    "description": "Jcrop modified for use with BuzzingPixel's Ansel field type",
+    "homepage": "https://github.com/buzzingpixel/ansel-jcrop",
+    "bugs": "https://github.com/buzzingpixel/ansel-jcrop/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/buzzingpixel/ansel-jcrop.git"
+    },
+    "license": "MIT",
+    "author": "BuzzingPixel, LLC",
+    "contributors": [
+        {
+            "name": "TJ Draper",
+            "url": "https://buzzingpixel.com"
+        }
+    ],
+    "fabricatorJsBuild": {
+        "files": [
+            "src/jquery.Jcrop.js"
+        ]
+    }
+}
